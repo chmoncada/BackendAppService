@@ -22,7 +22,7 @@ table.insert(function (context) {
 
 
 table.read(function (context) {
-    context.query.where({usuario : context.user.id});
+    context.query.where({idUsuario : context.user.id});
     return context.execute();
 });
 
