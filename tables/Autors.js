@@ -11,6 +11,10 @@ table.columns = {
     "secondName": "string"
 };
 
+
+// table.dynamicSchema = false;
+// Para que el schema sea estatico
+
 /*
 Trigger para insert
  */
