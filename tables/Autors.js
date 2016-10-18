@@ -12,7 +12,7 @@ table.columns = {
 };
 
 /*
-* Permisos de acceso a la tabla
+* Permisos de acceso a la tabla, prueba
 * */
 
 
