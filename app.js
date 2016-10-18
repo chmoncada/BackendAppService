@@ -8,9 +8,10 @@ var express = require("express"),
 var app = express(),
     mobile = azuremobileapps();
 
-mobile.tables.add("./tables");
+mobile.tables.import("./tables");
 
-mobile.api.add("./api");
+mobile.api.import("./api");
+
 
 app.use(mobile);
 
