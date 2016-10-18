@@ -1,0 +1,27 @@
+{
+  "name": "backendservice",
+  "version": "1.0.0",
+  "description": "Ejemplo de backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chmoncada@github.com/chmoncada/BackendAppService.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Charles Moncada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chmoncada/BackendAppService/issues"
+  },
+  "homepage": "https://github.com/chmoncada/BackendAppService#readme",
+  "dependencies": {
+    "azure-mobile-apps": "^3.0.1",
+    "express": "^4.14.0",
+    "swagger-ui": "^2.2.6"
+  }
+}
